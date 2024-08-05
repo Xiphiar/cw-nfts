@@ -342,6 +342,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "cw2981-non-transferable-metadata-onchain"
+version = "0.18.0"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw2 1.1.0",
+ "cw721 0.18.0",
+ "cw721-base 0.18.0",
+ "schemars",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
 name = "cw2981-royalties"
 version = "0.18.0"
 dependencies = [
